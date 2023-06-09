@@ -1,0 +1,54 @@
+$primaryColor: #FD2D01;
+$secondaryColor:  #FFD7D7;
+$tertiaryColor: #4E5166;
+$white: #fff;
+$black: #000;
+
+body {
+    height: 100vh;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+    position: relative;
+    
+    * {
+        color: $primaryColor;
+    }
+}
+
+#root{
+    height: 100%;
+    > div {
+        min-height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+}
+
+main, header {    
+    width: calc(1240px - 2rem);
+    margin: 0 auto;
+}
+
+header { 
+    padding: 1rem;
+    margin-top: 3rem;
+}
+
+section {    
+    max-width: 100%;
+    margin: 3rem 1rem;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+@media screen and (max-width: 768px) {
+    header, section {
+        max-width: calc(100% - 2rem);
+        margin-top: 1.5rem;
+    }
+}

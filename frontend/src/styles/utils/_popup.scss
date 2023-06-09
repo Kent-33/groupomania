@@ -1,0 +1,19 @@
+.popup {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    padding: 20vh 30vw;
+    background-color: rgba(0, 0, 0, 0.4);
+    &__container {
+        width: 40vw;
+        padding: 30px;
+        background-color: $white;
+    }
+    &__header {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+}

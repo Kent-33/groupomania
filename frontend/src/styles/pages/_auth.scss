@@ -1,0 +1,17 @@
+.auth {
+    section {
+        height: fit-content;
+        position: relative;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        row-gap: 3rem;
+        height: 100vh;
+    }    
+    
+    .logo {
+        width: 350px;
+    }
+}
