@@ -2,10 +2,12 @@
 
 @import "./utils/btn";
 @import "./utils/fonts/lato";
+@import "./utils/fonts/fontAwesome";
 @import "./utils/form";
 @import "./utils/popup";
 
 @import "./components/header";
+@import "./components/posts";
 
 @import "./pages/auth";
 @import "./pages/home";
